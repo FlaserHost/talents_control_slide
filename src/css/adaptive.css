@@ -13,11 +13,14 @@
 
     .article__slide > .article__slide__img-wrapper {
         grid-area: initial;
+        display: flex;
+        justify-content: center;
     }
 
     .article__slide > .article__slide__img-wrapper > figure {
         display: flex;
         justify-content: center;
+        max-width: 800px;
     }
 
     .article__slide > .article__slide__img-wrapper > figure > img {
@@ -30,6 +33,11 @@
     }
 
     .article__slide > .article__slide__img-wrapper {
-        padding-top: 0;
+        margin-top: -60px;
+    }
+
+    .article__slide > p,
+    .article__slide > .article__slide__demo-btn {
+        margin-top: 0;
     }
 }
